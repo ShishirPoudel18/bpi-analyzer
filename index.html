@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<img src="https://upload.wikimedia.org/wikipedia/en/8/84/Indian_Premier_League_Official_Logo.svg"
+class="iplLogo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPI Cricket Analyzer</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>BPI Cricket Analyzer</h1>
+        <p class="subtitle">
+            Bowling Performance Index Calculator
+        </p>
+
+        <div class="card">
+
+            <label>Bowler Name</label>
+            <input type="text" id="name" placeholder="Enter bowler name">
+
+            <label>Total Balls Bowled</label>
+            <input type="number" id="balls">
+
+            <label>Wickets Taken</label>
+            <input type="number" id="wickets">
+
+            <label>Dot Balls</label>
+            <input type="number" id="dots">
+
+            <label>Fours Conceded</label>
+            <input type="number" id="fours">
+
+            <label>Sixes Conceded</label>
+            <input type="number" id="sixes">
+
+            <label>Overs with 6 or fewer runs</label>
+            <input type="number" id="ecoOvers">
+
+            <label>Overs with 16 or more runs</label>
+            <input type="number" id="expOvers">
+
+            <button onclick="calculateBPI()">
+                Calculate BPI
+            </button>
+            <button onclick="clearFields()">
+    Clear Inputs
+</button>
+
+        </div>
+
+        <div class="result" id="result">
+            Your BPI result will appear here.
+        </div>
+
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>

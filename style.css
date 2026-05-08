@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #38bdf8;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #cbd5e1;
+}
+
+.card {
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #38bdf8;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0ea5e9;
+}
+
+.result {
+    margin-top: 30px;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.resultCard {
+    text-align: center;
+}
+
+.scoreBox {
+    margin: 20px auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #38bdf8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.verdict {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.stats {
+    margin-top: 25px;
+    text-align: left;
+    background-color: #0f172a;
+    padding: 15px;
+    border-radius: 10px;
+}
+.iplLogo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
