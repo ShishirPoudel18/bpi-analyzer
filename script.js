@@ -24,13 +24,13 @@ function calculateBPI() {
 
     let DF = dots / balls * 6;
 
-    let BF = ((fours * 0.335) + (sixes * 0.665))
+    let BF = ((fours * 0.67) + (sixes * 1.33))
              / balls * 6;
 
     let E = ecoOvers - expOvers;
 
     // Final BPI Formula
-    let BPI = (8 * WF + 2 * DF - 5 * BF + 4 * E)
+    let BPI = (8 * WF + 2 * DF - 4.511 * BF + 1.5 * E)
               / 14;
 
     // Rating Logic
