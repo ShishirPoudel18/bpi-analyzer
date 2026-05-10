@@ -31,7 +31,7 @@ function calculateBPI() {
 
     // Final BPI Formula
     let BPI = (8 * WF + 2 * DF - 4.511 * BF + 1.5 * E)
-              / 14;
+              / 13;
 
     // Rating Logic
     let verdict = "";
